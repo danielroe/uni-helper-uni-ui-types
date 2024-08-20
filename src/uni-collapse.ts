@@ -137,7 +137,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /**
      * 折叠面板用来折叠/显示过长的内容或者是列表

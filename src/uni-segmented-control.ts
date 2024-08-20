@@ -93,7 +93,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 分段器，用作不同视图的显示 */
     UniSegmentedControl: _UniSegmentedControl;

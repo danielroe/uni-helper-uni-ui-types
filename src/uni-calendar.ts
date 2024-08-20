@@ -299,7 +299,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /**
      * 日历组件可以查看日期，选择任意范围内的日期，打点操作

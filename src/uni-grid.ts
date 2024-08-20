@@ -79,7 +79,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 宫格 */
     UniGrid: _UniGrid;

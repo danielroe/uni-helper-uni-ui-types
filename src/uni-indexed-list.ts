@@ -80,7 +80,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 索引列表 */
     UniIndexedList: _UniIndexedList;

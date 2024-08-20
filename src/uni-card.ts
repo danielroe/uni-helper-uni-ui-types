@@ -117,7 +117,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /**
      * 卡片组件通用来显示完整独立的一段信息，同时让用户理解它的作用

@@ -166,7 +166,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 用于列表中，做滚动加载使用，展示 loading 的各种状态 */
     UniLoadMore: _UniLoadMore;

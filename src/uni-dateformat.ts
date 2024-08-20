@@ -109,7 +109,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 日期格式化组件 */
     UniDateformat: _UniDateformat;

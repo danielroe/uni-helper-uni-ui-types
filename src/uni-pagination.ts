@@ -124,7 +124,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 分页器组件，用于展示页码、请求数据等 */
     UniPagination: _UniPagination;

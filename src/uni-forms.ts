@@ -277,7 +277,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 表单，用于提交表单内容，内置了表单验证功能 */
     UniForms: _UniForms;

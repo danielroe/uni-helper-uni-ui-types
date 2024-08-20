@@ -276,7 +276,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /**
      * 本组件是基于 uni-app 基础组件 checkbox 的封装。本组件要解决问题包括：

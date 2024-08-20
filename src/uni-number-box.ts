@@ -127,7 +127,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 带加减按钮的数字输入框 */
     UniNumberBox: _UniNumberBox;

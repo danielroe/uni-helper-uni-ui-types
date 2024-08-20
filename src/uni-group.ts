@@ -80,7 +80,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 分组组件可用于将组件分组，添加间隔，以产生明显的区块 */
     UniGroup: _UniGroup;

@@ -110,7 +110,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 导航栏组件，主要用于头部导航 */
     UniNavBar: _UniNavBar;

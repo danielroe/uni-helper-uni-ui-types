@@ -127,7 +127,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 评分组件，多用于购买商品后，对商品进行评价等场景 */
     UniRate: _UniRate;

@@ -73,7 +73,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 组合框组件，一般用于可以选择也可以输入的表单项 */
     UniCombox: _UniCombox;

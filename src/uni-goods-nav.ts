@@ -118,7 +118,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 商品加入购物车，立即购买 */
     UniGoodsNav: _UniGoodsNav;

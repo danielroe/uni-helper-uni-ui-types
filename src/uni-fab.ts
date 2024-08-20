@@ -209,7 +209,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 点击可展开一个图形按钮菜单 */
     UniFab: _UniFab;

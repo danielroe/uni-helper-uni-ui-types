@@ -96,7 +96,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 用于收藏功能，可点击切换选中、不选中的状态 */
     UniFav: _UniFav;

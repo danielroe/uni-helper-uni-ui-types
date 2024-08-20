@@ -396,7 +396,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 元素过渡动画 */
     UniTransition: _UniTransition;

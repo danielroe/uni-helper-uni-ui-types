@@ -25,7 +25,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 提示文字 */
     UniTooltip: _UniTooltip;

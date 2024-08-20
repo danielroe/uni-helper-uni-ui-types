@@ -57,7 +57,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 流式栅格系统中的列 */
     UniCol: _UniCol;

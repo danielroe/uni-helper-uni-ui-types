@@ -636,7 +636,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 文件选择上传组件，可以选择图片、视频等任意文件并上传到当前绑定的服务空间 */
     UniFilePicker: _UniFilePicker;

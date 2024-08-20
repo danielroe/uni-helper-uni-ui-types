@@ -105,7 +105,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 抽屉侧滑菜单 */
     UniDrawer: _UniDrawer;

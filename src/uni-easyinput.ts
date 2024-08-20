@@ -412,7 +412,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 对原生 input 组件的增强 */
     UniEasyinput: _UniEasyinput;

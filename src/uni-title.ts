@@ -89,7 +89,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 用于展示一个或多个文字标签，可点击切换选中、不选中的状态 */
     UniTitle: _UniTitle;
